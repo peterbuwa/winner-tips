@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <title>Document</title>
+    <style>
+        .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+    </style>
+</head>
+<body>
+    <div class="header-container-wrapper">
+        <div class="header-wrapper">
+            <div class="header">
+                <div class="header1">
+                    <h3>Peter's web</h3>
+                </div>
+                 <div class="header2">
+                    <i class="fas fa-bars icon" onclick="openNav()"></i>
+                 </div>
+            </div>
+                <!-- side menu-->
+
+            <div>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                      <a href="#">About</a>
+                      <a href="#">Services</a>
+                      <a href="#">Clients</a>
+                      <a href="#">Contact</a>
+                    </div>
+                  </div>
+
+            </div>
+        <div class="container-header-para">
+            <div class="header-para-wrapper">
+                <div class="header-para-container">
+                    <div class="header-head">
+                        <h1>welcome to our cafe</h1>
+                    </div>
+                    <div class="header-para">
+                        <p>This is some text that you have to keep safe because if been expose its gonna wreck a massive
+                            number of organizaion based on its content. 
+                        </p>
+                    </div>
+                    <div class="header-para-logo">
+                         <p class="header-para-1">contact us now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="line2-container-wrapper">
+            <div class="line2-container-content">
+              <div class="line2-container">
+                <div class="line-2-container1">
+                    <div class="line2-1">
+                        <img src="./pics/pro15.png" alt="" width="35" height="35">
+                    </div>
+                    <div class="line2-2">
+                        <h3>Some Text Around</h3>
+                        <p>The kind dhsdhdskjs dhdjj dshdhk skajshh hshashsdh hsbdadj hash shdbhs sdbbdsh 
+                            
+                        </p>
+                    </div>
+                    <div class="line2-1">
+                        <img src="./pics/pro19.png" alt="" width="35" height="35">
+                    </div>
+                    <div class="line2-2">
+                        <h3>self roasted</h3>
+                        <p>The kind dhsdhdskjs dhdjj dshdhk skajshh hshashsdh hsbdadj hash shdbhs sdbbdsh 
+                            
+                        </p>
+                    </div>
+                    <div class="line2-1">
+                        <img src="./pics/pro20.png" alt="" width="35" height="35">
+                    </div>
+                    <div class="line2-2">
+                        <h3>15 coffee items</h3>
+                        <p class="padding-bottom">The kind dhsdhdskjs dhdjj dshdhk skajshh hshashsdh hsbdadj hash shdbhs sdbbdsh 
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="line2-picture-container">
+                    <div class="line2-pics">
+                        <div class="line2-image-container">
+                            <div class="line2-image-pics1"><div class="color1"></div><div class="color2"></div></div>
+                            <div class="line2-image-pics2"><img src="./pics/pro16.jpg" alt="" width="20" height="20"></div>
+                            <div class="line2-image-pics3"><div class="color1-1"></div><div class="color2-2"></div></div>
+                        </div>
+                        <div class="line2-pics2"></div>
+                    </div>
+                </div>
+             </div>
+             </div>
+             <div class="line2-content2">
+    
+                <div class="line2-picture-container1">
+                    <div class="line2-pics line2-pics2">
+                        <div class="line2-image-container">
+                            <div class="line2-image-pics1"><div class="color1"></div><div class="color2"></div></div>
+                            <div class="line2-image-pics2"><img src="./pics/pro13.jpg" alt="" width="20" height="20"></div>
+                            <div class="line2-image-pics3"><div class="color1"></div><div class="color2"></div></div>
+                        </div>
+                        <div class="line2-pics2"></div>
+                    </div> 
+                    <div class="line3-para">
+                            <h3>about us</h3>
+                            <p>some text hdhdh jdjjjd jdhbc hd hdbcb dcbdcb hbdhcbka kahbhc jahbdhb habdhb
+                                chhcbhbch HBchBCH hbHCBhBCH
+                            </p>
+                            <div class="diff-para-container"><p class="diff-para-pics">contact us now</p></div>
+                    </div>
+                </div>
+
+            </div>
+         </div>
+             
+       
+        <div class="container-line3">
+            <div class="form-container-wrapper">
+                <div class="line3-header"><h3>book a table</h3></div>
+                <div class="form-container-1">
+                    <div class="form-container-content1">
+                        <div><input type="text" placeholder="Fullname"></div>
+                        <div><input type="text" placeholder="Phone number"></div>
+                        <div><input type="date" placeholder="Email"></div>
+                    </div>
+                    <div class="form-container-content2">
+                        <div><input type="email" placeholder="Email"></div>
+                        <div><input type="text" placeholder="people number"></div>
+                        <div><input type="time" placeholder=""></div>
+                    </div>
+                </div>
+                <div class="form-container2">
+                    <div class="form"><input type="text" placeholder="Additional Note"></div>
+                    <div class="button"><button>send</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-line4-wrapper">
+            <div class="container-line4">
+                <div class="container4-header"><h3>what says our client</h3></div>
+                <div class="line4-image"><img src="./pics/pro8.jpg" alt=""></div>
+                <div class="line4-name">
+                    <h6>mary douglas</h6>
+                    <p class="line4-para">chsch shvshv dhsj shsshsc hshvks jsdbcbj scjbsjbjs scbjcsbj scbjcsbj
+                        sdhscnb ,ajdjka hncna ajncnj akajcb abacbj kakowki akakhan aajj kahadh bcbakah kqhcbb
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-line5-wrapper">
+            <div class="container-line5">
+                <div class="container-line5-content">
+                    <div class="line5-content line5">
+                        <h2>Reach at....</h2>
+                    </div>
+                    <div class="line5-content1 line5">
+                        <p>Location</p>
+                    </div>
+                    <div class="line5-content2 line5">
+                        <p>call +2348118430411</p>
+                    </div>
+                    <div class="line5-content3 line5">
+                        <p>peterjemiyotan@gmail.com</p>
+                    </div>
+                </div>
+                <div class="container-line5-content1">
+                    <div class="about"><h2>cafeesa</h2></div>
+                    <p class="line5-content1 cafeesa-para">necessary, making this first true generator on the internet
+                        it use a dictionary of over 200 latin words combined with
+                    </p>
+                    <div class="icon-container">
+                        <i class="fab fa-facebook icons"></i><i class="fab fa-twitter icons"></i><i class="icons fab fa-instagram-square"></i>
+                        <i class="fab fa-viber icons"></i><i class="fab fa-whatsapp-square icons"></i>
+                    </div>
+                    <div class="container-line5-content2">
+                        <p><span>c</span> 2021 all right resevered by free html templates</p>
+                    </div>
+                </div>
+                <div class="container-line5-content3-wrapper">
+                    <div class="container-line5-content3">
+                        <h2>re-constructed by</h2>
+                        <h4>peter</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+</body>
+</html>

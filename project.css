@@ -1,0 +1,65 @@
+* {list-style-type: none; padding:0; margin:0; box-sizing: border-box; font-family: sans-serif;}
+.icon {color:white;}
+.header {display:flex; justify-content: space-between; color:white; text-transform: uppercase;}
+.header-wrapper {height:500px; background-image: url("./pics/pro3.jpg"); background-size: cover; background-repeat: no-repeat;}
+.header, .header2 { padding:5px;}
+.header-para-wrapper {color:white; display:flex; justify-content: flex-end;}
+.header-para-container {width:90%; height:250px; background-color:rgba(14, 13, 13, 0.8); padding:3px; margin:5px;}
+.header-head h1 {text-transform: capitalize; font-size:25px;} 
+.header-para-logo {margin:30px 0; background-color:green; text-align:center; width:130px; height:auto; text-transform:capitalize;}
+.header-para-1 {padding:10px; font-size:12px;}
+.container-header-para {display: flex;justify-content: flex-end; align-items: center; height: 100%;}
+.header-para p {font-size:12px; padding:10px 0;}
+.line2-pics {height:400px; width:80%; background-color:black; margin:30px 0; color:white;}
+.line2-picture-container {display:flex; justify-content: center;}
+.line2-image-container  {display: flex; flex-direction: row;}
+.line2-image-pics1  {width:10%; height:100%;}
+.color3 {background-color: white;}
+
+.line2-container-content {width:90%; margin:auto;}
+.line2-1  {padding:30px 0 3px 0;}
+.line2-2 h3 {text-transform: capitalize;}
+.line2-2 p {font-size:12px;}
+.padding-bottom {padding:0 0 40px 0;}
+.line2-pics { height:300px; width: 90%; margin: auto; overflow: hidden;}
+.line2-image-container {display: flex;}
+.line2-image-pics1, .line2-image-pics3 {width:10%; height:250px;}
+.color1, .color1-1  {width:100%; height:230px; background-color: white;}
+.color2-2, .color2   {width:10%; height:50px;}
+/*.line2-pics2    {height:20px; width:100%;}*/
+.line2-picture-container1 {padding:30px 0;}
+.line2-image-pics2 {width:80%; height:250px;}
+.line2-image-pics2 img {width:100%; height:270px;}
+.diff-para-pics {width:150px; text-align:center; background-color: green; padding:10px; font-size:16px !important;}
+.diff-para-container {padding:20px 15px;}
+.line3-para h3 {font-size:18px; text-transform: uppercase; padding:10px 15px;}
+.line3-para p {font-size:12px; padding:5px 15px;}
+.line3-para {padding:20px 0;}
+input {border:unset; border-bottom:1px solid gray; padding:10px; margin:7px; background-color: transparent; color:white;}
+.form-container-wrapper { padding:0 20px; background-color: rgba(14, 13, 13, 0.8);}
+.container-line3 {background-image:url("./pics/pro17.jpg"); background-repeat: no-repeat; background-size: cover;}
+button  {width:70px; background-color:greenyellow; color:black; border-radius: 5px; padding:5px 10px;}
+.button {padding:20px;}
+.line3-header {color:white; text-transform: uppercase; text-align:center;}
+.line3-header h3 {text-align:center; padding:10px;}
+.container4-header h3 {font-size:18px; text-align:center; padding:30px 15px; text-transform:uppercase;}
+.line4-image img {border-radius: 50%; width:100px; height:100px;}
+.line4-image {display:flex; justify-content: center;}
+.line4-name h6 {text-align:center; padding:7px; font-weight:bold; text-transform: uppercase;}
+.line4-para  {padding:10px; text-align:center; font-size:12px;}
+.container-line4 {padding:50px 0;}
+.line5 {text-align:center;}
+.line5 p {font-size:12px; padding:5px;}
+.container-line5-wrapper {background-color:#025332; color:white;}
+.container-line5-content {padding:20px 10px;}
+.about h2 {text-align:center; text-transform: capitalize;}
+.line5-content2  {text-align:center; font-size:12px; padding:5px;}
+.line5-content1 {font-size:12px; padding:5px 10px; text-align:center;}
+.icon-container {padding:20px 0; display:flex; justify-content: center;}
+.icons {padding:5px; }
+span {border:1px solid white; border-radius:100%; font-size:8px; }
+.container-line5-content2 p {font-size:12px; text-align:center; padding:0 0 20px 0;}
+.container-line5-content2 {padding:20px}
+.container-line5-content3 {text-align:center; text-transform: capitalize; padding:10px;}
+.container-line5-content3 h4 {color:gold;}
+
